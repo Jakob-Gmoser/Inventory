@@ -1,0 +1,19 @@
+
+<div class="card" style="width: 18rem;" id="product-card-template">
+    <button class="delete-button" id="delete-button" onclick="open_delete_overlay(this.id)">
+        <img src="../icons/delete_icon.png" alt="Delete button">
+    </button>
+    <button class="edit-button" id="edit-button" onclick="edit_product_redirect(this.id)">
+        <img src="../icons/edit_icon.png" alt="Edit button">
+    </button>
+    <img id="product-img" src="../icons/icon.png" class="card-img" alt="Temp image">
+    <div class="card-body text-center">
+        <h5 class="card-title"></h5>
+        <p class="card-text">
+            <strong>Anzahl:</strong> <span id="amount"></span> <br>
+            <strong>Preis:</strong> <span id="price"></span> <br>
+            <strong>Kategorie:</strong> <span id="category"></span>
+            <span id="barcode" data-barcode=""></span>
+        </p>
+    </div>
+</div>

@@ -1,0 +1,66 @@
+#delete-product-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(58, 47, 29, 0.85); /* dunkler transparenter Hintergrund wie dein Overlay */
+  display: none; /* versteckt */
+  justify-content: center;
+  align-items: center;
+  z-index: 1050;
+  display: flex;
+}
+
+.delete-product-content {
+  background-color: var(--primary-color);
+  box-shadow: 0 8px 20px var(--shadow-color);
+  border-radius: 8px;
+  padding: 2.5rem;
+  max-width: 400px;
+  width: 90%;
+  position: relative;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: var(--text-color);
+}
+
+#close-delete-product-overlay {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: var(--accent-color);
+  color: white;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  line-height: 2.3rem;
+  text-align: center;
+  user-select: none;
+}
+
+.delete-product-content p {
+  font-weight: 600;
+  color: var(--dark-accent);
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+#delete-product {
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 10px var(--shadow-color);
+  transition: background-color 0.3s ease;
+}
+
+#delete-product:hover {
+  background-color: var(--dark-accent);
+}
