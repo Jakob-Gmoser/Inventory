@@ -14,8 +14,6 @@ A simple and efficient inventory management system with barcode scanning and use
 
 ## 🚀 Technologies Used
 
-> _Replace these with the actual tools you used_
-
 - Frontend:`HTML/CSS/JS`
 - Backend: `php`
 - Database: `SQLite`
